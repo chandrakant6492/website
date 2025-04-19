@@ -27,20 +27,6 @@
 
 </head>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[href^="http"]').forEach(function (link) {
-      if (link.hostname !== location.hostname) {
-        link.addEventListener("click", function (e) {
-          e.preventDefault();
-          e.stopPropagation();
-          window.open(this.href, "_blank");
-          return false;
-        });
-      }
-    });
-  });
-</script>
 
 <body>
 
@@ -273,64 +259,6 @@
                     </div>
                 </section>
                 
-                <script>
-                    const itemsPerPage = 6;
-                    let currentPage = 1;
-                
-                    const allPosts = Array.from(document.querySelectorAll('.blog-item'));
-                    const pagination = document.getElementById('pagination');
-                    const buttons = document.querySelectorAll('#filter-buttons a');
-                    let currentFilter = 'all';
-                
-                    function filterPosts(filter) {
-                    currentFilter = filter;
-                    currentPage = 1;
-                    renderPosts();
-                    }
-                
-                    function renderPosts() {
-                    const filtered = allPosts.filter(post =>
-                        currentFilter === 'all' || post.dataset.tags.includes(currentFilter)
-                    );
-                
-                    allPosts.forEach(post => post.style.display = 'none');
-                    filtered.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-                        .forEach(post => post.style.display = 'block');
-                
-                    renderPagination(filtered.length);
-                    }
-                
-                    function renderPagination(totalItems) {
-                    pagination.innerHTML = '';
-                    const totalPages = Math.ceil(totalItems / itemsPerPage);
-                
-                    for (let i = 1; i <= totalPages; i++) {
-                        const btn = document.createElement('a');
-                        btn.href = "#";
-                        btn.className = `mil-pagination-btn ${i === currentPage ? 'mil-active' : ''}`;
-                        btn.textContent = i;
-                        btn.addEventListener('click', () => {
-                        currentPage = i;
-                        renderPosts();
-                        });
-                        pagination.appendChild(btn);
-                    }
-                    }
-                
-                    buttons.forEach(button => {
-                    button.addEventListener('click', e => {
-                        e.preventDefault();
-                        buttons.forEach(b => b.classList.remove('mil-active'));
-                        button.classList.add('mil-active');
-                        filterPosts(button.dataset.filter);
-                    });
-                    });
-                
-                    // Initialize
-                    renderPosts();
-                </script>
-  
-
 
                 <!-- footer -->
                 <footer class="mil-dark-bg">
@@ -550,8 +478,13 @@
     <script src="js/plugins/ScrollTrigger.min.js"></script>
     <!-- scroll to js -->
     <script src="js/plugins/ScrollTo.min.js"></script>
-    <!-- ashley js -->
+    <!-- js -->
     <script src="js/main.js"></script>
+    <!-- js -->
+    <script src="js/filter.js"></script>
+    <!-- js -->
+    <script src="js/external-click.js"></script>
+    
 
 </body>
 
