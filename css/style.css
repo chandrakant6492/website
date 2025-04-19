@@ -3438,7 +3438,7 @@ accordion
 }
 .mil-accordion-group .mil-accordion-menu .mil-accordion-head {
   font-size: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
   font-weight: 500;
   color: rgb(0, 0, 0);
