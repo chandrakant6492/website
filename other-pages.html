@@ -2,13 +2,14 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from miller.bslthemes.com/ashley-demo/blog-inner.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Apr 2025 13:14:58 GMT -->
 <head>
-
+	
     <meta charset="UTF-8">
+    <meta name="description" content="Explore with me the intricacies of Earth system sciences—where every pixel tells a story of change and shows a pathway toward a sustainable future.">
+    <meta name="keywords" content="forest resilience, deforestation footprint, hydroclimatology, remote sensing, land system monitoring, tipping points, food systems">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content='img/icons/thumbnail.png'/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!-- bootstrap grid css -->
     <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
     <!-- font awesome css -->
@@ -17,12 +18,29 @@
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
     <!-- fancybox css -->
     <link rel="stylesheet" href="css/plugins/fancybox.min.css">
-    <!-- ashley scss -->
+    <!-- scss -->
     <link rel="stylesheet" href="css/style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
     <!-- page name -->
-    <title>Ashley</title>
+    <title>Chandrakant Singh | Other pages</title>
 
 </head>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('a[href^="http"]').forEach(function (link) {
+      if (link.hostname !== location.hostname) {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          window.open(this.href, "_blank");
+          return false;
+        });
+      }
+    });
+  });
+</script>
 
 <body>
 
@@ -41,24 +59,6 @@
         </div>
         <!-- cursor end -->
 
-        <!-- preloader -->
-        <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">ashley.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-
         <!-- scrollbar progress -->
         <div class="mil-progress-track">
             <div class="mil-progress"></div>
@@ -69,7 +69,7 @@
         <div class="mil-menu-frame">
             <!-- frame clone -->
             <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">A.</a>
+                <a href="index.html" class="mil-logo">CS.</a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
@@ -83,41 +83,25 @@
                             <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
                                     <li class="mil-has-children">
-                                        <a href="#.">Homepage</a>
-                                        <ul>
-                                            <li><a href="home-1.html">Landing page</a></li>
-                                            <li><a href="home-2.html">Personal</a></li>
-                                            <li><a href="portfolio-3.html">Portfolio slider</a></li>
-                                        </ul>
+                                        <a href="index.html">Home</a>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Portfolio</a>
-                                        <ul>
-                                            <li><a href="portfolio-1.html">Grid type 1</a></li>
-                                            <li><a href="portfolio-2.html">Grid type 2</a></li>
-                                            <li><a href="portfolio-3.html">Slider</a></li>
-                                        </ul>
+                                        <a href="portfolio.html">Portfolio</a>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">Services List</a></li>
-                                            <li><a href="service.html">Single service</a></li>
-                                        </ul>
+                                        <a href="publications.html">Publications</a>
+                                    </li>
+                                    <li class="mil-has-children">
+                                        <a href="blogs.html">Research blog</a>
+                                    </li>
+                                    <li class="mil-has-children">
+                                        <a href="projects.html">Projects</a>
                                     </li>
                                     <li class="mil-has-children mil-active">
-                                        <a href="#.">Newsletter</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog List</a></li>
-                                            <li><a href="publication.html">Publication</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mil-has-children">
                                         <a href="#.">Other pages</a>
                                         <ul>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="Blog/DeDuCE.html">DeDuCE model</a></li>
+                                            <li><a href="other-pages.html">Other pages collection</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -134,48 +118,31 @@
                                 </div>
                                 <div class="mil-menu-right">
                                     <div class="row">
-                                        <div class="col-lg-8 mil-mb-60">
+                                        
+                                        <div class="col-lg-6 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Projects</h6>
+                                            <h6 class="mil-muted mil-mb-30">Connect with me</h6>
 
-                                            <ul class="mil-menu-list">
-                                                <li><a href="project-1.html" class="mil-light-soft">Interior design studio</a></li>
-                                                <li><a href="project-2.html" class="mil-light-soft">Home Security Camera</a></li>
-                                                <li><a href="project-3.html" class="mil-light-soft">Kemia Honest Skincare</a></li>
-                                                <li><a href="project-4.html" class="mil-light-soft">Cascade of Lava</a></li>
-                                                <li><a href="project-5.html" class="mil-light-soft">Air Pro by Molekule</a></li>
-                                                <li><a href="project-6.html" class="mil-light-soft">Tony's Chocolonely</a></li>
-                                            </ul>
-
-                                        </div>
-                                        <div class="col-lg-4 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Useful links</h6>
-
-                                            <ul class="mil-menu-list">
-                                                <li><a href="#." class="mil-light-soft">Privacy Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Terms and conditions</a></li>
-                                                <li><a href="#." class="mil-light-soft">Cookie Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Careers</a></li>
+                                            <ul class="mil-social-icons mil-left" style="margin-bottom:25px; gap:15px;">
+                                                <li><a href="https://www.linkedin.com/in/chandrakantsingh6492/" target="_blank" class="social-icon" style="font-size:2.2rem;"><i class="fab fa-linkedin"></i></a></li>
+                                                <li><a href="https://twitter.com/Chandrakant___S" target="_blank" class="social-icon" style="font-size:2.2rem;"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://scholar.google.co.in/citations?user=pUSXwTMAAAAJ&hl=en" target="_blank" class="social-icon" style="font-size:2.2rem;"><i class="fas fa-graduation-cap"></i></a></li>
+                                                <li><a href="https://github.com/chandrakant6492" target="_blank" class="social-icon" style="font-size:2.2rem;"><i class="fab fa-github"></i></a></li>
+                                                <li><a href="mailto:chandrakant.singh@chalmers.se" target="_blank" class="social-icon" style="font-size:2.2rem;"><i class="fas fa-envelope"></i></a></li>
                                             </ul>
 
                                         </div>
                                     </div>
+                                  
                                     <div class="mil-divider mil-mb-60"></div>
                                     <div class="row justify-content-between">
 
-                                        <div class="col-lg-4 mil-mb-60">
+                                        <div class="col-lg-8 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Canada</h6>
+                                            <h6 class="mil-muted mil-mb-30">Address</h6>
+                                            <p class="mil-light-soft mil-up">Physical Resource Theory,<br> Department of Space, Earth and Environment, Chalmers University of Technology <br>412 96 Gothenburg, Sweden <br><span class="mil-no-wrap">Contact: +46-317 721 603</span></p>
 
-                                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
-
-                                        </div>
-                                        <div class="col-lg-4 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Germany</h6>
-
-                                            <p class="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
+                                       
 
                                         </div>
                                     </div>
@@ -189,6 +156,7 @@
         </div>
         <!-- menu -->
 
+
         <!-- curtain -->
         <div class="mil-curtain"></div>
         <!-- curtain end -->
@@ -196,7 +164,7 @@
         <!-- frame -->
         <div class="mil-frame">
             <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">A.</a>
+                <a href="index.html" class="mil-logo">CS.</a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
@@ -223,199 +191,295 @@
                             <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
                         </div>
                         <div class="container">
-                            <ul class="mil-breadcrumbs mil-mb-60">
-                                <li><a href="home-1.html">Homepage</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-inner.html">Category page</a></li>
-                            </ul>
-                            <h1 class="mil-mb-60">Publications <br>Category <span class="mil-thin">Name</span></h1>
+                            <h1 class="mil-mb-60">Other pages<br><span class="mil-thin">Category name</span></h1>
                             <a href="#blog" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
-                                <span>Publications</span>
+                                <span>See category</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <!-- banner end -->
 
-                <!-- blog -->
+                <!-- blog section with filter and pagination -->
                 <section id="blog">
                     <div class="container mil-p-120-120">
-                        <div class="row align-items-center mil-mb-30">
-                            <div class="col-lg-4 mil-mb-30">
-                                <h3 class="mil-up">Other categories:</h3>
-                            </div>
-                            <div class="col-lg-8 mil-mb-30">
-                                <div class="mil-adaptive-right mil-up">
-
-                                    <ul class="mil-category-list">
-                                        <li><a href="blog-inner.html">Design</a></li>
-                                        <li><a href="blog-inner.html">Art</a></li>
-                                        <li><a href="blog-inner.html">Code</a></li>
-                                        <li><a href="blog-inner.html" class="mil-active">Technology</a></li>
-                                        <li><a href="blog-inner.html">All categories</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <!-- Filter Heading -->
+                    <div class="row align-items-center mil-mb-30">
+                        <div class="col-lg-4 mil-mb-30">
+                        <h3 class="mil-up">Category filter:</h3>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/8.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Never Reach Creative Burnout</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/7.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Create a Brand Guide for Your Client</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/1.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Create a Brand Guide for Your Client</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/3.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Create a Brand Guide for Your Client</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/4.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">Color Psychology in Art and Design</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/5.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Design a Repeating Pattern</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="mil-pagination">
-                                    <a href="blog-inner.html" class="mil-pagination-btn mil-active">1</a>
-                                    <a href="blog-inner.html" class="mil-pagination-btn">2</a>
-                                    <a href="blog-inner.html" class="mil-pagination-btn">3</a>
-                                    <a href="blog-inner.html" class="mil-pagination-btn">4</a>
-                                    <a href="blog-inner.html" class="mil-pagination-btn">5</a>
-                                </div>
-                            </div>
+                        <div class="col-lg-8 mil-mb-30">
+                        <div class="mil-adaptive-right mil-up">
+                            <ul class="mil-category-list" id="filter-buttons">
+                            <li><a href="#" data-filter="design">Design</a></li>
+                            <li><a href="#" data-filter="art">Art</a></li>
+                            <li><a href="#" data-filter="code">Code</a></li>
+                            <li><a href="#" data-filter="technology">Technology</a></li>
+                            <li><a href="#" class="mil-active" data-filter="all">All categories</a></li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
-                </section>
-                <!-- blog end -->
-
-                <!-- call to action -->
-                <section class="mil-soft-bg">
-                    <div class="container mil-p-120-120">
-                        <div class="row">
-                            <div class="col-lg-10">
-
-                                <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Looking to make your mark? We'll help you turn <br> your project into a success story.</span>
-
+                
+                    <!-- Blog Posts Grid -->
+                    <div class="row" id="blog-posts">
+                        <!-- Blog items -->
+                        <div class="col-lg-12 blog-item" data-tags="technology code">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/1.jpg" alt="cover">
                             </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
+                                <div class="mil-label mil-upper">May 24 2023</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Building Smarter Systems with Code</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Exploring how code drives innovation in tech.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
                         </div>
-                        <div class="mil-center">
-                            <h2 class="mil-up mil-mb-60">Stay up-to-date <span class="mil-thin">with the</span><br> latest news by <span class="mil-thin">subscribing</span><br> to our <span class="mil-thin">newsletter!</span></h2>
-                            <div class="row justify-content-center mil-up">
-                                <div class="col-lg-4">
-                                    <form class="mil-subscribe-form mil-subscribe-form-2 mil-up">
-                                        <input type="text" placeholder="Enter our email">
-                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                                    </form>
-                                </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="design art">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/2.jpg" alt="cover">
                             </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">DESIGN</div>
+                                <div class="mil-label mil-upper">April 10 2023</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Art Meets Design</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">How visual storytelling elevates user experiences.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="technology">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/3.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
+                                <div class="mil-label mil-upper">March 19 2023</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">The Future of AI in Design</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Understanding how AI transforms the creative process.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="code">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/4.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">CODE</div>
+                                <div class="mil-label mil-upper">February 5 2023</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Clean Code Matters</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Best practices for writing maintainable and readable code.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="design">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/5.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">DESIGN</div>
+                                <div class="mil-label mil-upper">January 15 2023</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Color Theory in UI</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">A practical guide to choosing harmonious color palettes.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="art">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/6.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">ART</div>
+                                <div class="mil-label mil-upper">December 20 2022</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Modern Abstracts in Visual Art</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Delving into expressive art forms in digital mediums.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="design technology">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/7.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">DESIGN</div>
+                                <div class="mil-label mil-upper">November 5 2022</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Responsive Design Trends</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Staying ahead of web and mobile UI trends.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="technology">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/8.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
+                                <div class="mil-label mil-upper">October 1 2022</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Sustainable Tech in 2024</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Exploring green innovations and energy-efficient solutions.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="art design">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/9.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">ART</div>
+                                <div class="mil-label mil-upper">September 12 2022</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Embracing Organic Forms</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Why fluid shapes are making a comeback in design.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                
+                        <div class="col-lg-12 blog-item" data-tags="code">
+                        <a href="publication.html" class="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
+                            <div class="mil-cover-frame mil-up">
+                            <img src="img/blog/10.jpg" alt="cover">
+                            </div>
+                            <div class="mil-post-descr">
+                            <div class="mil-labels mil-up mil-mb-30">
+                                <div class="mil-label mil-upper mil-accent">CODE</div>
+                                <div class="mil-label mil-upper">August 20 2022</div>
+                            </div>
+                            <h4 class="mil-up mil-mb-30">Understanding Web Performance</h4>
+                            <p class="mil-post-text mil-up mil-mb-30">Optimizing front-end performance for better UX.</p>
+                            <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                <span>Read more</span>
+                            </div>
+                            </div>
+                        </a>
                         </div>
                     </div>
+                
+                    <!-- Pagination -->
+                    <div class="col-lg-12">
+                        <div class="mil-pagination" id="pagination"></div>
+                    </div>
+                    </div>
                 </section>
-                <!-- call to action end -->
+                
+                <script>
+                    const itemsPerPage = 6;
+                    let currentPage = 1;
+                
+                    const allPosts = Array.from(document.querySelectorAll('.blog-item'));
+                    const pagination = document.getElementById('pagination');
+                    const buttons = document.querySelectorAll('#filter-buttons a');
+                    let currentFilter = 'all';
+                
+                    function filterPosts(filter) {
+                    currentFilter = filter;
+                    currentPage = 1;
+                    renderPosts();
+                    }
+                
+                    function renderPosts() {
+                    const filtered = allPosts.filter(post =>
+                        currentFilter === 'all' || post.dataset.tags.includes(currentFilter)
+                    );
+                
+                    allPosts.forEach(post => post.style.display = 'none');
+                    filtered.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+                        .forEach(post => post.style.display = 'block');
+                
+                    renderPagination(filtered.length);
+                    }
+                
+                    function renderPagination(totalItems) {
+                    pagination.innerHTML = '';
+                    const totalPages = Math.ceil(totalItems / itemsPerPage);
+                
+                    for (let i = 1; i <= totalPages; i++) {
+                        const btn = document.createElement('a');
+                        btn.href = "#";
+                        btn.className = `mil-pagination-btn ${i === currentPage ? 'mil-active' : ''}`;
+                        btn.textContent = i;
+                        btn.addEventListener('click', () => {
+                        currentPage = i;
+                        renderPosts();
+                        });
+                        pagination.appendChild(btn);
+                    }
+                    }
+                
+                    buttons.forEach(button => {
+                    button.addEventListener('click', e => {
+                        e.preventDefault();
+                        buttons.forEach(b => b.classList.remove('mil-active'));
+                        button.classList.add('mil-active');
+                        filterPosts(button.dataset.filter);
+                    });
+                    });
+                
+                    // Initialize
+                    renderPosts();
+                </script>
+  
+
 
                 <!-- footer -->
                 <footer class="mil-dark-bg">
@@ -424,14 +488,16 @@
                             <div class="row justify-content-between">
                                 <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                                    <div class="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+                                    <h6 class="mil-muted mil-mb-30">Connect with me</h6>
 
-                                    <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
-
-                                    <form class="mil-subscribe-form mil-up">
-                                        <input type="text" placeholder="Enter our email">
-                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                                    </form>
+                                            <ul class="mil-social-icons mil-left" style="margin-bottom:25px; gap:15px;">
+                                                <li><a href="https://www.linkedin.com/in/chandrakantsingh6492/" target="_blank" class="social-icon" style="font-size:2rem;"><i class="fab fa-linkedin"></i></a></li>
+                                                <li><a href="https://twitter.com/Chandrakant___S" target="_blank" class="social-icon" style="font-size:2rem;"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://scholar.google.co.in/citations?user=pUSXwTMAAAAJ&hl=en" target="_blank" class="social-icon" style="font-size:2rem;"><i class="fas fa-graduation-cap"></i></a></li>
+                                                <li><a href="https://github.com/chandrakant6492" target="_blank" class="social-icon" style="font-size:2rem;"><i class="fab fa-github"></i></a></li>
+                                                <li><a href="mailto:chandrakant.singh@chalmers.se" target="_blank" class="social-icon" style="font-size:2rem;"><i class="fas fa-envelope"></i></a></li>
+                                            </ul>
+                                    </a>
 
                                 </div>
                                 <div class="col-md-7 col-lg-6">
@@ -440,20 +506,23 @@
 
                                             <nav class="mil-footer-menu mil-mb-60">
                                                 <ul>
-                                                    <li class="mil-up mil-active">
-                                                        <a href="home-1.html">Home</a>
+                                                    <li class="mil-has-children mil-active">
+                                                        <a href="index.html">Home</a>
                                                     </li>
-                                                    <li class="mil-up">
-                                                        <a href="portfolio-1.html">Portfolio</a>
+                                                    <li class="mil-has-children">
+                                                        <a href="portfolio.html">Portfolio</a>
                                                     </li>
-                                                    <li class="mil-up">
-                                                        <a href="services.html">Services</a>
+                                                    <li class="mil-has-children">
+                                                        <a href="publications.html">Publications</a>
                                                     </li>
-                                                    <li class="mil-up">
-                                                        <a href="contact.html">Contact</a>
+                                                    <li class="mil-has-children">
+                                                        <a href="blogs.html">Research blog</a>
                                                     </li>
-                                                    <li class="mil-up">
-                                                        <a href="blog.html">Blog</a>
+                                                    <li class="mil-has-children">
+                                                        <a href="projects.html">Projects</a>
+                                                    </li>
+                                                    <li class="mil-has-children">
+                                                        <a href="other-pages.html">Other pages</a>
                                                     </li>
                                                 </ul>
                                             </nav>
@@ -462,10 +531,8 @@
                                         <div class="col-md-6 col-lg-5">
 
                                             <ul class="mil-menu-list mil-up mil-mb-60">
-                                                <li><a href="#." class="mil-light-soft">Privacy Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Terms and conditions</a></li>
-                                                <li><a href="#." class="mil-light-soft">Cookie Policy</a></li>
-                                                <li><a href="#." class="mil-light-soft">Careers</a></li>
+                                                <li><a href="privacy-policy.html" class="mil-light-soft">Privacy Policy</a></li>
+                                                <li><a href="cookies-policy.html" class="mil-light-soft">Cookie Policy</a></li>
                                             </ul>
 
                                         </div>
@@ -474,24 +541,18 @@
                             </div>
 
                             <div class="row justify-content-between flex-sm-row-reverse">
-                                <div class="col-md-7 col-lg-6">
+                                <div class="col-md-8 col-lg-6">
 
                                     <div class="row justify-content-between">
 
-                                        <div class="col-md-6 col-lg-5 mil-mb-60">
+                                        <div class="col-md-12 col-lg-12 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
+                                            <h6 class="mil-muted mil-up mil-mb-60">Address</h6>
 
-                                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
-
-                                        </div>
-                                        <div class="col-md-6 col-lg-5 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-up mil-mb-30">Germany</h6>
-
-                                            <p class="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
+                                            <p class="mil-light-soft mil-up">Physical Resource Theory,<br> Department of Space, Earth and Environment, <br>Chalmers University of Technology <br>412 96 Gothenburg, Sweden <br><span class="mil-no-wrap">Contact: +46-317 721 603</span></p>
 
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -499,14 +560,8 @@
 
                                     <div class="mil-vert-between">
                                         <div class="mil-mb-30">
-                                            <ul class="mil-social-icons mil-up">
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
-                                            </ul>
                                         </div>
-                                        <p class="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.</p>
+                                        <p class="mil-light-soft mil-up">© Copyright 2025 - Chandrakant Singh.<br> All Rights Reserved.</p>
                                     </div>
 
                                 </div>
@@ -647,12 +702,7 @@
     <!-- ashley js -->
     <script src="js/main.js"></script>
 
-<!-- Static App Form Collection Script -->
-<script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
-
-<script src="https://static.app/js/static.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from miller.bslthemes.com/ashley-demo/blog-inner.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Apr 2025 13:14:58 GMT -->
 </html>
